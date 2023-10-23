@@ -43,6 +43,8 @@
             >
 
             <androidx.cardview.widget.CardView
+                android:foreground="@drawable/effect"
+                android:clickable="true"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -81,6 +83,8 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                android:foreground="@drawable/effect"
+                android:clickable="true"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -119,6 +123,8 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                android:foreground="@drawable/effect"
+                android:clickable="true"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -157,6 +163,8 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                android:foreground="@drawable/effect"
+                android:clickable="true"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -195,6 +203,8 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                android:foreground="@drawable/effect"
+                android:clickable="true"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -233,6 +243,8 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                android:foreground="@drawable/effect"
+                android:clickable="true"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
