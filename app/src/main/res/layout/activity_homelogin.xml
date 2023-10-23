@@ -18,13 +18,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:text="@string/app_name"
-                android:textSize="50sp"
+                android:textSize="40sp"
+                android:textStyle="bold"
+
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="36dp"
+                android:layout_marginTop="30dp"
                 android:textColor="@android:color/white"
                 android:layout_alignParentRight="true"
-                android:layout_marginRight="102dp"/>
+                android:layout_marginRight="200dp"/>
             <!--imageview-->
 
 
