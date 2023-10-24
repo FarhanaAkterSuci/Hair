@@ -113,13 +113,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/baseline_add_alarm_24"/>
+                        android:src="@drawable/baseline_access_alarms_24"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
 
                         android:textColor="@android:color/holo_blue_bright"
-                        android:text="Alarm"
+                        android:text="Stopwatch"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:layout_gravity="center_horizontal"/>
@@ -153,13 +153,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/baseline_add_alarm_24"/>
+                        android:src="@drawable/baseline_edit_notifications_24"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
 
                         android:textColor="@android:color/holo_blue_bright"
-                        android:text="Alarm"
+                        android:text="Timetable"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:layout_gravity="center_horizontal"/>
@@ -193,13 +193,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/baseline_add_alarm_24"/>
+                        android:src="@drawable/baseline_edit_24"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
 
                         android:textColor="@android:color/holo_blue_bright"
-                        android:text="Alarm"
+                        android:text="To-do"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:layout_gravity="center_horizontal"/>
@@ -233,13 +233,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/baseline_add_alarm_24"/>
+                        android:src="@drawable/baseline_edit_location_alt_24"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
 
                         android:textColor="@android:color/holo_blue_bright"
-                        android:text="Alarm"
+                        android:text="Loc-Alarm"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:layout_gravity="center_horizontal"/>
@@ -273,13 +273,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/baseline_add_alarm_24"/>
+                        android:src="@drawable/baseline_edit_calendar_24"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
 
                         android:textColor="@android:color/holo_blue_bright"
-                        android:text="Alarm"
+                        android:text="Calender"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:layout_gravity="center_horizontal"/>

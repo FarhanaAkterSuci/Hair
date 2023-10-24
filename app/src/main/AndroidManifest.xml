@@ -13,6 +13,15 @@
         android:theme="@style/Theme.SmartAlarm"
         tools:targetApi="31">
         <activity
+            android:name=".drawer_base"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".action_bar"
+            android:exported="true" />
+        <activity
             android:name=".navbar_display"
             android:exported="false" />
         <activity
