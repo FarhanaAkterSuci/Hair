@@ -20,7 +20,7 @@ public class stopwatch2 extends AppCompatActivity {
         setContentView(R.layout.activity_stopwatch2);
 
         chronometer = findViewById(R.id.chronometer);
-        chronometer.setFormat("Time: %s");
+        chronometer.setFormat("%s");
         chronometer.setBase(SystemClock.elapsedRealtime());
 
         //chronometer.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
