@@ -90,7 +90,7 @@ public class RecyclerItemTouchHelper extends ItemTouchHelper.SimpleCallback {
             int iconLeft = itemView.getLeft() + iconMargin;
             int iconRight = itemView.getLeft() + iconMargin + icon.getIntrinsicWidth();
             icon.setBounds(iconLeft,iconTop,iconRight,iconButton);
-            background.setBounds(itemView.getLeft(),itemView.getTop(),itemView.getLeft() + ((int)dx) + backgroundCornerOffset;
+            background.setBounds(itemView.getLeft(),itemView.getTop(),itemView.getLeft() + ((int)dx) + backgroundCornerOffset,itemView.getBottom());
 
         }
         else if(dx<0)
@@ -108,10 +108,12 @@ public class RecyclerItemTouchHelper extends ItemTouchHelper.SimpleCallback {
             background.setBounds(0,0,0,0);
 
         }
-    }
+
     background.draw(c);
     icon.draw(c);
 
+    }
+
 
 
     }
@@ -120,4 +122,4 @@ public class RecyclerItemTouchHelper extends ItemTouchHelper.SimpleCallback {
 
 
 
-}
+
