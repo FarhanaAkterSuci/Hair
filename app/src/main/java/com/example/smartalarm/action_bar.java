@@ -58,7 +58,7 @@ public class action_bar extends AppCompatActivity {
                     }
                     else if (finalI == 3) {
 
-                        Intent intent = new Intent(action_bar.this, SpashTodo.class);
+                        Intent intent = new Intent(action_bar.this, ToDoSplash.class);
                         startActivity(intent);
 
 

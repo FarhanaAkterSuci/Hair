@@ -2,8 +2,11 @@ package com.example.smartalarm;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.View;
+import android.widget.Button;
 
 public class SpashTodo extends AppCompatActivity {
 
@@ -11,7 +14,10 @@ public class SpashTodo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spash_todo);
-        getSupportActionBar().hide();
+       Button splash;
+       splash= findViewById(R.id.splash);
+
+       /*getSupportActionBar().hide();
         final Intent i = new Intent(SpashTodo.this,ToDoSplash.class);
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -20,7 +26,17 @@ public class SpashTodo extends AppCompatActivity {
                 finish();
 
             }
-        },1000);
+        },1000);*/
 
+
+        splash.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(getApplicationContext(),ToDoSplash.class);
+                startActivity(intent);
+
+            }
+        });
     }
 }
