@@ -5,6 +5,8 @@ import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.widget.GridLayout;
 
@@ -18,6 +20,14 @@ public class action_bar extends AppCompatActivity {
         mainGrid = (GridLayout) findViewById(R.id.mainGrid);
         setSingleEvent(mainGrid);
     }
+    public boolean onCreateOptionMenu(Menu menu){
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.nav_menu,menu);
+        return true;
+    }
+
+
+
     private void setSingleEvent(GridLayout mainGrid) {
         for(int i=0;i<mainGrid.getChildCount();i++){
             CardView cardView = (CardView) mainGrid.getChildAt(i);
@@ -48,7 +58,7 @@ public class action_bar extends AppCompatActivity {
                     }
                     else if (finalI == 3) {
 
-                        Intent intent = new Intent(action_bar.this, Alarm1.class);
+                        Intent intent = new Intent(action_bar.this, SpashTodo.class);
                         startActivity(intent);
 
 
@@ -62,7 +72,7 @@ public class action_bar extends AppCompatActivity {
                     }
                     else if (finalI == 5) {
 
-                        Intent intent = new Intent(action_bar.this, Alarm1.class);
+                        Intent intent = new Intent(action_bar.this, navbar_display.class);
                         startActivity(intent);
 
 
