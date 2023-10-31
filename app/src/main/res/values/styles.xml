@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.SmartAlarm" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Customize your light theme here. -->
+    <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <item name="colorPrimary">@color/lightblue</item>
+    <item name="colorPrimaryDark">@color/lightblue</item>
+    </style>
+
+
+    <style name="DialogStyle" parent="Animation.Design.BottomSheetDialog">
+
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+
+
+
+
+    </style>
+
+
+
+</resources>
