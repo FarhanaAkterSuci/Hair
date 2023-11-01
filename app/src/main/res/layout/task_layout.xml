@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             tools:text="This is an Sample task inside the application"
             android:paddingStart="8dp"
-            android:buttonTint="@color/bgcolor"
+            android:buttonTint="@color/lightblue"
             />
 
 
