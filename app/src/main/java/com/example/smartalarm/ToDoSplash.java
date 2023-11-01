@@ -19,6 +19,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class ToDoSplash extends AppCompatActivity implements DialogCloseListener {
+
     private RecyclerView tasksRecyclerView;
     private ToDoAdapter taskAdapter;
     private FloatingActionButton fab;
@@ -50,16 +51,18 @@ public class ToDoSplash extends AppCompatActivity implements DialogCloseListener
         taskAdapter.setTasks(taskList);
 
 
-       // ToDoModel task = new ToDoModel();
-        //task.setTask("This is a Test Task");
-        //task.setStatus(0);
-        //task.setId(1);
-       // taskList.add(task);
-       // taskList.add(task);
-        //taskList.add(task);
-        //taskList.add(task);
-        //taskList.add(task);
-        //taskAdapter.setTasks(taskList);
+        /*ToDoModel task = new ToDoModel();
+        task.setTask("This is a Test Task");
+        task.setStatus(0);
+        task.setId(1);
+       taskList.add(task);
+       taskList.add(task);
+        taskList.add(task);
+        taskList.add(task);
+        taskList.add(task);
+       taskAdapter.setTasks(taskList);
+
+         */
        fab.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
@@ -82,5 +85,4 @@ public class ToDoSplash extends AppCompatActivity implements DialogCloseListener
         taskAdapter.setTasks(taskList);
         taskAdapter.notifyDataSetChanged();
 
-    }
-}
+    }}
