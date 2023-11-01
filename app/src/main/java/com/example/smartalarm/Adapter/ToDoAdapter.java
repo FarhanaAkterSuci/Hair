@@ -35,7 +35,7 @@ public class ToDoAdapter extends RecyclerView.Adapter<ToDoAdapter.ViewHolder> {
         return new ViewHolder(itemView);
 
 
-        }
+    }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
@@ -88,13 +88,13 @@ public class ToDoAdapter extends RecyclerView.Adapter<ToDoAdapter.ViewHolder> {
         return activity;
     }
 
-   public void deleteItem(int position){
+    public void deleteItem(int position){
 
         ToDoModel item = todoList.get(position);
         db.deleteTask(item.getId());
         todoList.remove(position);
         notifyItemRemoved(position);
-   }
+    }
 
     public void editItem(int position){
         ToDoModel item = todoList.get(position);
@@ -127,20 +127,8 @@ public class ToDoAdapter extends RecyclerView.Adapter<ToDoAdapter.ViewHolder> {
 
 
 
-        }
-
-
-
     }
 
 
 
-
-
-
-
-
-
-
-
-
+}

@@ -63,13 +63,13 @@ public class ToDoSplash extends AppCompatActivity implements DialogCloseListener
        taskAdapter.setTasks(taskList);
 
          */
-       fab.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View v) {
-               AddNewTask.newInstance().show(getSupportFragmentManager(),AddNewTask.TAG);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AddNewTask.newInstance().show(getSupportFragmentManager(),AddNewTask.TAG);
 
-           }
-       });
+            }
+        });
 
 
 

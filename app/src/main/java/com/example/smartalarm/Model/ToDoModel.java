@@ -1,7 +1,7 @@
 package com.example.smartalarm.Model;
 
 public class ToDoModel {
-    private int id,status;
+    private int id, status;
     private String task;
 
     public int getId() {
