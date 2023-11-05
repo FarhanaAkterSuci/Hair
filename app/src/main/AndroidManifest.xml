@@ -15,6 +15,9 @@
         android:theme="@style/Theme.SmartAlarm"
         tools:targetApi="31">
         <activity
+            android:name=".TableSplash"
+            android:exported="false" />
+        <activity
             android:name=".Timetable1"
             android:exported="false" />
         <activity
