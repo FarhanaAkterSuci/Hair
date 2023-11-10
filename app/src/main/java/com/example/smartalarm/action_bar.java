@@ -51,7 +51,7 @@ public class action_bar extends AppCompatActivity {
                     }
                     else if (finalI == 2) {
 
-                        Intent intent = new Intent(action_bar.this, Alarm1.class);
+                        Intent intent = new Intent(action_bar.this, TimeTable.class);
                         startActivity(intent);
 
 

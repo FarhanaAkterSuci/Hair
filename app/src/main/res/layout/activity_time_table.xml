@@ -4,6 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Timetable1">
+    tools:context=".TimeTable"
+    >
+
+
+    <!--<include layout="@layout/calender_layout"/>-->
+    <com.example.smartalarm.CustomCalenderView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Custom_Calender_View">
+
+    </com.example.smartalarm.CustomCalenderView>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
