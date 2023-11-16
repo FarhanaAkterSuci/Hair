@@ -160,7 +160,7 @@
                         android:layout_height="wrap_content"
 
                         android:textColor="@android:color/holo_blue_bright"
-                        android:text="Timetable"
+                        android:text="Task\nReminder"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:layout_gravity="center_horizontal"/>

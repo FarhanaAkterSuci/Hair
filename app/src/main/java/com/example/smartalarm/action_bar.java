@@ -37,7 +37,7 @@ public class action_bar extends AppCompatActivity {
                 public void onClick(View view) {
                     if (finalI == 0) {
 
-                        Intent intent = new Intent(action_bar.this, Alarm1.class);
+                        Intent intent = new Intent(action_bar.this, stopwatch.class);
                         startActivity(intent);
 
 
@@ -65,7 +65,7 @@ public class action_bar extends AppCompatActivity {
                     }
                     else if (finalI == 4) {
 
-                        Intent intent = new Intent(action_bar.this, Alarm1.class);
+                        Intent intent = new Intent(action_bar.this, stopwatch.class);
                         startActivity(intent);
 
 

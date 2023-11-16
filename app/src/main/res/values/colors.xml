@@ -12,6 +12,30 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
+    <color name="acid_green">#B0BF1A</color>
+    <color name="flower_girl">#F498AD</color>
+    <color name="pink">#FF00FF</color>
+    <color name="jolpai">#7FA208</color>
+    <color name="chai">#808080</color>
+    <color name="inverted">#C5573E</color>
+    <color name="girl_blue">#6AB2CA</color>
+    <color name="background_cal">#B86043</color>
+    <color name="calendar">#699DAB</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="orange">#FFA500</color>
+
+
+
+
+
+
+
+
+
+
+
+
 
     <color name="lavender">#8692f7</color>
 </resources>

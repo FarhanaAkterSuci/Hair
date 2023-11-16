@@ -28,42 +28,42 @@ public class homelogin extends AppCompatActivity {
                public void onClick(View view) {
                    if (finalI == 0) {
 
-                       Intent intent = new Intent(homelogin.this, Alarm1.class);
+                       Intent intent = new Intent(homelogin.this, stopwatch.class);
                        startActivity(intent);
 
 
                    }
                    else if (finalI == 1) {
 
-                       Intent intent = new Intent(homelogin.this, Alarm1.class);
+                       Intent intent = new Intent(homelogin.this, stopwatch.class);
                        startActivity(intent);
 
 
                    }
                    else if (finalI == 2) {
 
-                       Intent intent = new Intent(homelogin.this, Alarm1.class);
+                       Intent intent = new Intent(homelogin.this, stopwatch.class);
                        startActivity(intent);
 
 
                    }
                    else if (finalI == 3) {
 
-                       Intent intent = new Intent(homelogin.this, Alarm1.class);
+                       Intent intent = new Intent(homelogin.this, stopwatch.class);
                        startActivity(intent);
 
 
                    }
                    else if (finalI == 4) {
 
-                       Intent intent = new Intent(homelogin.this, Alarm1.class);
+                       Intent intent = new Intent(homelogin.this, stopwatch.class);
                        startActivity(intent);
 
 
                    }
                    else if (finalI == 5) {
 
-                       Intent intent = new Intent(homelogin.this, Alarm1.class);
+                       Intent intent = new Intent(homelogin.this, stopwatch.class);
                        startActivity(intent);
 
 
