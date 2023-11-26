@@ -1,5 +1,6 @@
 package com.example.smartalarm;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void openNewActivity(){
-        Intent intent = new Intent(this, Activity2.class);
+        Intent intent = new Intent(this,action_bar.class);
         startActivity(intent);
     }
 }
