@@ -108,7 +108,7 @@ public class action_bar extends AppCompatActivity implements NavigationView.OnNa
                 public void onClick(View view) {
                     if (finalI == 0) {
 
-                        Intent intent = new Intent(action_bar.this,MyDiary.class);
+                        Intent intent = new Intent(action_bar.this, DiarySplash.class);
                         startActivity(intent);
 
 
@@ -116,14 +116,14 @@ public class action_bar extends AppCompatActivity implements NavigationView.OnNa
                     }
                     if (finalI == 1) {
 
-                        Intent intent = new Intent(action_bar.this, stopwatch.class);
+                        Intent intent = new Intent(action_bar.this,SplashStopWatch.class);
                         startActivity(intent);
 
 
                     }
                     if (finalI == 2) {
 
-                        Intent intent = new Intent(action_bar.this, TimeTable.class);
+                        Intent intent = new Intent(action_bar.this, TaskReminderSplash.class);
                         startActivity(intent);
 
 

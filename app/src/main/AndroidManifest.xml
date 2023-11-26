@@ -15,6 +15,15 @@
         android:theme="@style/Theme.SmartAlarm"
         tools:targetApi="31">
         <activity
+            android:name=".TaskReminderSplash"
+            android:exported="false" />
+        <activity
+            android:name=".DiarySplash"
+            android:exported="false" />
+        <activity
+            android:name=".SplashStopWatch"
+            android:exported="false" />
+        <activity
             android:name=".Nav_Main"
             android:exported="false" />
         <activity
